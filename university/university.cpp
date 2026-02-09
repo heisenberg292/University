@@ -10,7 +10,7 @@ int main()
     //p1.setBirthdate(18,9,2006);
     //p1.getstudent();
     //user u1,u2;
-    //u1.setEmailAndPass("omarahmed292006@gmail.com","Heisenberg292006#");
+    //u1.setEmailAndPass("omarahmed292006@gmail.com","Heisenberg");
     //u2.setEmailAndPass("sdfg","ihdgui");
     return 0;
 }
