@@ -1,6 +1,4 @@
-﻿  employee.cpp
-  management.cpp
+﻿  management.cpp
   university.cpp
-  user.cpp
   Generating Code...
   university.vcxproj -> D:\Heisenberg\cpp\university\x64\Debug\university.exe
