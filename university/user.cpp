@@ -1,4 +1,5 @@
 #include "user.h"
+#include "studintenterface.h"
 
 void user::setEmailAndPass(string em, string ps)
 {
@@ -30,7 +31,8 @@ void user::check()
 		}
 	}
 	if (found) {
-		cout <<"Login successful :)"<<endl;
+		cout <<"Login successful :)\nLoding ......"<<endl;
+		studintenterface::directionPage();
 	}
 	else {
 		cout <<"Wrong Email or password, please try again :("<<endl;

@@ -1,2 +1,11 @@
-﻿  user.cpp
+﻿  employee.cpp
+  home.cpp
+  management.cpp
+  person.cpp
+  student.cpp
+  studintenterface.cpp
+  university.cpp
+D:\Heisenberg\cpp\university\university\university.cpp(7,22): warning C4101: 'm': unreferenced local variable
+  user.cpp
+  Generating Code...
   university.vcxproj -> D:\Heisenberg\cpp\university\x64\Debug\university.exe

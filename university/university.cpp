@@ -1,10 +1,12 @@
 #include <iostream>
-#include "home.h"
+#include "studintenterface.h"
 using namespace std;
 
 int main()
 {
-    home m;
+    studintenterface m;
+    home h;
+   // m.directionPage();
     return 0;
 }
 
