@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="courses.cpp" />
     <ClCompile Include="employee.cpp" />
+    <ClCompile Include="grades.cpp" />
     <ClCompile Include="home.cpp" />
     <ClCompile Include="management.cpp" />
     <ClCompile Include="person.cpp" />
@@ -137,7 +139,9 @@
     <ClCompile Include="user.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="courses.h" />
     <ClInclude Include="employee.h" />
+    <ClInclude Include="grades.h" />
     <ClInclude Include="home.h" />
     <ClInclude Include="management.h" />
     <ClInclude Include="person.h" />

@@ -1,11 +1,22 @@
-﻿  employee.cpp
-  home.cpp
-  management.cpp
-  person.cpp
-  student.cpp
+﻿  grades.cpp
+D:\Heisenberg\cpp\university\university\grades.cpp(36,23): warning C4305: '=': truncation from 'double' to 'float'
+D:\Heisenberg\cpp\university\university\grades.cpp(38,24): warning C4305: '=': truncation from 'double' to 'float'
+D:\Heisenberg\cpp\university\university\grades.cpp(40,24): warning C4305: '=': truncation from 'double' to 'float'
+D:\Heisenberg\cpp\university\university\grades.cpp(41,24): warning C4305: '=': truncation from 'double' to 'float'
+D:\Heisenberg\cpp\university\university\grades.cpp(42,23): warning C4305: '=': truncation from 'double' to 'float'
+D:\Heisenberg\cpp\university\university\grades.cpp(43,24): warning C4305: '=': truncation from 'double' to 'float'
   studintenterface.cpp
+D:\Heisenberg\cpp\university\university\studintenterface.cpp(96,17): warning C4244: 'argument': conversion from 'float' to 'const _Elem', possible loss of data
+D:\Heisenberg\cpp\university\university\studintenterface.cpp(96,17): warning C4244:         with
+D:\Heisenberg\cpp\university\university\studintenterface.cpp(96,17): warning C4244:         [
+D:\Heisenberg\cpp\university\university\studintenterface.cpp(96,17): warning C4244:             _Elem=char
+D:\Heisenberg\cpp\university\university\studintenterface.cpp(96,17): warning C4244:         ]
+D:\Heisenberg\cpp\university\university\studintenterface.cpp(133,17): warning C4244: 'argument': conversion from 'float' to 'const _Elem', possible loss of data
+D:\Heisenberg\cpp\university\university\studintenterface.cpp(133,17): warning C4244:         with
+D:\Heisenberg\cpp\university\university\studintenterface.cpp(133,17): warning C4244:         [
+D:\Heisenberg\cpp\university\university\studintenterface.cpp(133,17): warning C4244:             _Elem=char
+D:\Heisenberg\cpp\university\university\studintenterface.cpp(133,17): warning C4244:         ]
   university.cpp
-D:\Heisenberg\cpp\university\university\university.cpp(7,22): warning C4101: 'm': unreferenced local variable
-  user.cpp
+D:\Heisenberg\cpp\university\university\university.cpp(9,22): warning C4101: 'm': unreferenced local variable
   Generating Code...
   university.vcxproj -> D:\Heisenberg\cpp\university\x64\Debug\university.exe

@@ -39,6 +39,12 @@
     <ClCompile Include="studintenterface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="courses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grades.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h">
@@ -60,6 +66,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="studintenterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="courses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="grades.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

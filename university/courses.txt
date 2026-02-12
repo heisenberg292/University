@@ -1,0 +1,4 @@
+level 1.1 : math0 | math1 | cs | ai
+level 1.2 : English | Math3 | database | is
+level 2.1 : Math3 | electronics | datacom | humanrights
+level 2.2 : computerlow | digitallogic | cs2 | ai2

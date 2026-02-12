@@ -6,7 +6,6 @@ class studintenterface
 	static void directionPage();
 	static void informationPage();
 	static void tablePage();
-	static void registerPage();
 	static void gradePage();
 };
 
