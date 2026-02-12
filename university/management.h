@@ -9,9 +9,9 @@ private :
 	student st;
 	employee em;
 public:
-	void addStudent();
-	void addEmployee();
-	void adding();
+	static void addStudent();
+	static void addEmployee();
+	static void adding();
 	void read();
 	management();
 

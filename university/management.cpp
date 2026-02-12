@@ -76,21 +76,24 @@ void management::addEmployee()
 }
 void management::adding()
 {
+	again:
 	string x;
 	cout <<"what you want add (Student/Employee) : ";
 	cin>>x;
 	if (x == "student" || x == "s" || x == "S" || x == "st" || x == "Student")
 	{
-		management m;
-		m.addStudent();
+		management::addStudent();
 	}
-	if (x == "employee" || x == "e" || x == "E" || x == "Em" || x == "Employee")
+	else if (x == "employee" || x == "e" || x == "E" || x == "Em" || x == "Employee")
 	{
-		management m;
-		m.addEmployee();
+		management::addEmployee();
+	}
+	else {
+		cout <<"Your input is wrong, please try again: "<<endl;
+		goto again;
 	}
 }
-void management::read()
+ void management::read()
 {
 	again:
 	string x;
@@ -104,8 +107,9 @@ void management::read()
 		{
 			while (getline(myfile, line)) {
 				cout << line <<endl;
+			}
 				myfile.close();
-			}}
+				}
 		else {
 			cout <<"the file didnt open ,please try again"<<endl;
 			goto again;
@@ -120,8 +124,8 @@ void management::read()
 		{
 			while (getline(myfile, line)) {
 				cout << line << endl;
-				myfile.close();
 			}
+				myfile.close();
 		}
 		else {
 			cout << "the file didnt open ,please try again" << endl;
@@ -137,7 +141,7 @@ management::management()
 {
 	again:
 	cout <<"Choose the operation :-"<<endl;
-	cout <<"[1] Adding\n[2]read"<<endl;
+	cout <<"[1] Adding\n[2] Read"<<endl;
 	string x;
 	cin>>x;
 	if (x == "1" || x == "Adding" || x == "adding" || x == "add" || x == "a" || x == "A")

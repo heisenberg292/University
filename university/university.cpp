@@ -1,10 +1,10 @@
 #include <iostream>
-#include "management.h"
+#include "home.h"
 using namespace std;
 
 int main()
 {
-    management m;
+    home m;
     return 0;
 }
 

@@ -12,5 +12,6 @@ private:
 public:
 	void setEmailAndPass(string em, string ps);
 	void getAccount();
+	static void check();
 };
 
